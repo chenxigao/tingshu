@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9aa5cc8-4777-48b7-ad18-93ca0a4c31a0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/zh-CN.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/tingshu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/tingshu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,8 +38,26 @@
       <file leaf-file-name="_header.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="653">
-              <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+            <state relative-caret-position="537">
+              <caret line="20" column="81" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/app.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="160" column="63" selection-start-line="160" selection-start-column="63" selection-end-line="160" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zh-CN.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/lang/zh-CN.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -69,8 +95,8 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+            <state relative-caret-position="232">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
@@ -84,28 +110,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="377">
               <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.mix.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.mix.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="14" column="60" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-318" />
           </provider>
         </entry>
       </file>
@@ -119,15 +129,17 @@
       <list>
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/_footer.blade.php" />
         <option value="$PROJECT_DIR$/app/helpers.php" />
         <option value="$PROJECT_DIR$/resources/views/shared/_messages.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/pages.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PagesController.php" />
         <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" />
+        <option value="$PROJECT_DIR$/resources/lang/zh-CN.json" />
+        <option value="$PROJECT_DIR$/config/app.php" />
       </list>
     </option>
   </component>
@@ -232,12 +244,14 @@
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
       <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
       <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/caouecs/laravel-lang" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
+    <option name="width" value="814" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -274,6 +288,11 @@
             <path>
               <item name="tingshu" type="b2602c69:ProjectViewProjectNode" />
               <item name="tingshu" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tingshu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tingshu" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -303,6 +322,12 @@
               <item name="tingshu" type="b2602c69:ProjectViewProjectNode" />
               <item name="tingshu" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tingshu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tingshu" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -310,6 +335,13 @@
               <item name="tingshu" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tingshu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tingshu" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tingshu" type="b2602c69:ProjectViewProjectNode" />
@@ -349,12 +381,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564465204994</updated>
-      <workItem from="1564465209363" duration="4497000" />
+      <workItem from="1564465209363" duration="5276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4497000" />
+    <option name="totallyTimeSpent" value="5276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -423,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/_footer.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -451,13 +476,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -494,6 +512,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/_header.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="20" column="81" selection-start-line="20" selection-start-column="81" selection-end-line="20" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/lang/zh-CN.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="160" column="63" selection-start-line="160" selection-start-column="63" selection-end-line="160" selection-end-column="63" />
         </state>
       </provider>
     </entry>
